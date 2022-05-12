@@ -8,13 +8,13 @@
 
 Proje ayağa kaldırıldığında ilk açılacak ana sayfa aşağıdaki gibidir:
 
-![Project Demo 1](https://i.hizliresim.com/r7mlpf4.png)
+![Project Demo 1](https://www.hizliresim.com/hbkjitx.jpg)
 
 Sol kısımda "RC5 Hakkında" ve "Sifrele ve Coz" isimli iki adet menü bulunmaktadır. Bu menü seçimleri ile farklı ekranlar karşımıza çıkmaktadır.
 
 "RC5 Hakkında" menüsünün içeriğinde RC5 şifreleme algoritmasıyla ilgili kısa bir bilgilendirme metni bulunmaktadır. Algoritmanın ayrıntıları proje raporunda anlatılmıştır.
 
-![Project Demo 2](https://i.hizliresim.com/i3npw9h.png)
+![Project Demo 2](https://www.hizliresim.com/duv2bmv.jpg)
 
 "Sifrele ve Coz" menüsünün içeriğinde ise bir metnin şifrelemesini ve şifre çözümlemesinin yapıldığı bir ekran karşımıza çıkmaktadır. "Şifre" butonuna tıklandığında, plain text RC5 algoritmasının prosedürlerine uygun olarak şifrelenmektedir ve Cipher Text isimli Rich Text Box'ta gösterilmektedir. "Çöz" butonuna tıklandığında ise Cipher Text isimli Rich Text Box'taki şifrelenmiş metnin çözümünü yapmaktadır. Ve çözümünü de Decrypted isimli Rich Text Box'ta göstermektedir.
 
