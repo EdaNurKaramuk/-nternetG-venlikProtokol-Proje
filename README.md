@@ -6,37 +6,57 @@
 
 **ÖNEMLİ:** Proje Visual Studio 2019'da yazılmıştır. Windows Form Application projesidir.
 
-Proje ayağa kaldırıldığında ilk açılacak ana sayfa aşağıdaki gibidir:
+Visual Studio 2019'da C# programlama dili kullanılarak yazılmış Windows Form Application projesidir. .NET 5.0 versiyonu kullanılmaktadır. App.Pgp/bin/debug/net5.0-windows dizininde yer alan .exe uzantılı dosya çalıştırıldığında proje çalışır halde görülebilir.
+
+![Project Demo 15](https://i.hizliresim.com/nhe4avq.jpg)
+
+Projenin genel görünümü ilk olarak aşağıdaki şekildedir:
 
 ![Project Demo 1](https://i.hizliresim.com/jvpzy1a.jpg)
 
-Sol kısımda "RC5 Hakkında" ve "Sifrele ve Coz" isimli iki adet menü bulunmaktadır. Bu menü seçimleri ile farklı ekranlar karşımıza çıkmaktadır.
-
-"RC5 Hakkında" menüsünün içeriğinde RC5 şifreleme algoritmasıyla ilgili kısa bir bilgilendirme metni bulunmaktadır. Algoritmanın ayrıntıları proje raporunda anlatılmıştır.
+Kullanıcı Dosya adı, Email ve şifreyi random olarak üretebilir ya da isterse kendi belirlediği dosya adı, Email ve şifreyi kaydedebilir. “Temizle” butonunu kullanarak bunları silebilir.
 
 ![Project Demo 2](https://i.hizliresim.com/3s2t29p.jpg)
 
-"Sifrele ve Coz" menüsünün içeriğinde ise bir metnin şifrelemesini ve şifre çözümlemesinin yapıldığı bir ekran karşımıza çıkmaktadır. "Şifre" butonuna tıklandığında, plain text RC5 algoritmasının prosedürlerine uygun olarak şifrelenmektedir ve Cipher Text isimli Rich Text Box'ta gösterilmektedir. "Çöz" butonuna tıklandığında ise Cipher Text isimli Rich Text Box'taki şifrelenmiş metnin çözümünü yapmaktadır. Ve çözümünü de Decrypted isimli Rich Text Box'ta göstermektedir.
+Dosya adı, Email ve şifre üretildikten sonra “Anahtarları Üret” butonu ile public ve private anahtarlar üretilir. Ayrıca kullanıcı isterse “Public Key Yükle” veya “Private Key Yükle” butonları ile kendisi de anahtar yükleme işlemini gerçekleştirebilir. “Public Key Kaldır” ve “Private Key Kaldır” butonları anahtarları sıfırlar.  
 
 ![Project Demo 3](https://i.hizliresim.com/iqpezpm.jpg)
 
+Üretilen anahtarlar “anahtarlar” adındaki otomatik üretilen dosyada görüntülenebilir.
+
+![Project Demo 9](https://i.hizliresim.com/j0wce31.jpg)
+
+![Project Demo 10](https://i.hizliresim.com/jj4tuk5.jpg)
+
+![Project Demo 6](https://i.hizliresim.com/hc0qy6g.jpg)
+
+Kullanıcı “Plaintext Yükle” butonu ile şifrelenecek metni kendi bilgisayarından seçebilir ya da text üzerine bir metin yazabilir. Şifreleme yaparken ilk üretilen şifre kullanılmalıdır. “Şifrele” butonuna basıldığında şifreleme işlemi başlatılır. 
+
 ![Project Demo 4](https://i.hizliresim.com/qe51w1j.jpg)
 
-Şifrelemek istediğimiz metni (plain text) kendimiz yazabildiğimiz gibi "Txt Dosyası Seç" butonu ile de .txt uzantılı bir dosya seçerek de aynı işlemleri gerçekleştirebiliriz.
+Kullanıcı şifrelenecek metni seçtikten sonra ilk üretilen şifreyi kullanarak “Şifrele” butonu ile şifreleme işlemini gerçekleştirir. Daha sonra şifreli metni “Şifre Çöz” butonu ile çözebilir ve Plaintext’ini görebilir. 
 
 ![Project Demo 5](https://i.hizliresim.com/o9wogrq.jpg)
 
-![Project Demo 6](https://i.hizliresim.com/n6amrc4.jpg)
+Şifresi çözülen metin.
 
-![Project Demo 7](https://i.hizliresim.com/8nt8zsy.jpg)
+![Project Demo 8](https://i.hizliresim.com/8nt8zsy.jpg)
 
-![Project Demo 8](https://i.hizliresim.com/j0wce31.jpg)
+![Project Demo 12](https://i.hizliresim.com/j2qcye0.jpg)
 
-![Project Demo 9](https://i.hizliresim.com/jj4tuk5.jpg)
+Üretilen metinler “girdiler” adındaki otomatik üretilen dosyada görüntülenebilir.
 
-![Project Demo 10](https://i.hizliresim.com/1j6nfde.jpg)
+![Project Demo 7](https://i.hizliresim.com/n6amrc4.jpg)
 
-![Project Demo 11](https://i.hizliresim.com/j2qcye0.jpg)
+![Project Demo 11](https://i.hizliresim.com/1j6nfde.jpg)
+
+Şifrelenen metinler “sonuclar” adındaki klasörde görüntülenebilir.
+
+![Project Demo 13](https://i.hizliresim.com/j2qcye0.jpg)
+
+Şifresi çözülen metinler “sonuclar” adındaki dosyada görüntülenir. Bu metin ilk şifrelemek istediğimiz metnin çözülmüş halidir.
+
+![Project Demo 14](https://i.hizliresim.com/bfep5jq.jpg)
 
 ## Algorithm.cs
 
