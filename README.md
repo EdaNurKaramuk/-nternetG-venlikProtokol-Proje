@@ -8,29 +8,35 @@
 
 Proje ayağa kaldırıldığında ilk açılacak ana sayfa aşağıdaki gibidir:
 
-![Project Demo 1](https://www.hizliresim.com/hbkjitx.jpg)
+![Project Demo 1](https://i.hizliresim.com/jvpzy1a.jpg)
 
 Sol kısımda "RC5 Hakkında" ve "Sifrele ve Coz" isimli iki adet menü bulunmaktadır. Bu menü seçimleri ile farklı ekranlar karşımıza çıkmaktadır.
 
 "RC5 Hakkında" menüsünün içeriğinde RC5 şifreleme algoritmasıyla ilgili kısa bir bilgilendirme metni bulunmaktadır. Algoritmanın ayrıntıları proje raporunda anlatılmıştır.
 
-![Project Demo 2](https://www.hizliresim.com/duv2bmv.jpg)
+![Project Demo 2](https://i.hizliresim.com/3s2t29p.jpg)
 
 "Sifrele ve Coz" menüsünün içeriğinde ise bir metnin şifrelemesini ve şifre çözümlemesinin yapıldığı bir ekran karşımıza çıkmaktadır. "Şifre" butonuna tıklandığında, plain text RC5 algoritmasının prosedürlerine uygun olarak şifrelenmektedir ve Cipher Text isimli Rich Text Box'ta gösterilmektedir. "Çöz" butonuna tıklandığında ise Cipher Text isimli Rich Text Box'taki şifrelenmiş metnin çözümünü yapmaktadır. Ve çözümünü de Decrypted isimli Rich Text Box'ta göstermektedir.
 
-![Project Demo 3](https://i.hizliresim.com/hquijsz.png)
+![Project Demo 3](https://i.hizliresim.com/iqpezpm.jpg)
 
-![Project Demo 4](https://i.hizliresim.com/84cmg07.png)
+![Project Demo 4](https://i.hizliresim.com/qe51w1j.jpg)
 
 Şifrelemek istediğimiz metni (plain text) kendimiz yazabildiğimiz gibi "Txt Dosyası Seç" butonu ile de .txt uzantılı bir dosya seçerek de aynı işlemleri gerçekleştirebiliriz.
 
-![Project Demo 5](https://i.hizliresim.com/9crufd4.png)
+![Project Demo 5](https://i.hizliresim.com/o9wogrq.jpg)
 
-![Project Demo 6](https://i.hizliresim.com/j7nihsg.png)
+![Project Demo 6](https://i.hizliresim.com/n6amrc4.jpg)
 
-![Project Demo 7](https://i.hizliresim.com/q9o3oob.png)
+![Project Demo 7](https://i.hizliresim.com/8nt8zsy.jpg)
 
-![Project Demo 8](https://i.hizliresim.com/k4bu9cp.png)
+![Project Demo 8](https://i.hizliresim.com/j0wce31.jpg)
+
+![Project Demo 9](https://i.hizliresim.com/jj4tuk5.jpg)
+
+![Project Demo 10](https://i.hizliresim.com/1j6nfde.jpg)
+
+![Project Demo 11](https://i.hizliresim.com/j2qcye0.jpg)
 
 ## Algorithm.cs
 
